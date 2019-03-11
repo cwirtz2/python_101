@@ -1,0 +1,194 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # Do all math functions on your phone
+# # Print all numbers between 1 and 100 - print odd, even and prime
+# # Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”
+
+# In[1]:
+
+
+x=2
+x**2
+x**3
+x**100
+
+
+# In[2]:
+
+
+x**2
+
+
+# In[3]:
+
+
+x**3
+
+
+# In[4]:
+
+
+x**100
+
+
+# In[6]:
+
+
+#e^x
+import math
+math.exp(x)
+
+
+# In[7]:
+
+
+10**x
+
+
+# In[8]:
+
+
+1/x
+
+
+# In[11]:
+
+
+import math
+math.sqrt(x)
+
+
+# In[12]:
+
+
+#cubed root
+x ** (1. / 3)
+
+
+# In[16]:
+
+
+#any root
+x ** (1. / 22)
+
+
+# In[21]:
+
+
+#ln
+import math
+math.log(x)/math.log(5)
+
+
+# In[22]:
+
+
+#log10
+import math
+math.log10( x )
+
+
+# In[23]:
+
+
+#sin
+import math
+math.sin (x)
+
+
+# In[24]:
+
+
+#cos
+import math
+math.cos (x)
+
+
+# In[25]:
+
+
+#tan
+import math
+math.tan (x)
+
+
+# In[26]:
+
+
+#Rad
+import math
+math.radians (x)
+
+
+# In[27]:
+
+
+#sinh
+import math
+math.sinh (x)
+
+
+# In[28]:
+
+
+#cosh
+import math
+math.cosh (x)
+
+
+# In[29]:
+
+
+#tanh
+import math
+math.tanh (x)
+
+
+# In[33]:
+
+
+#pi
+import math
+math.pi (x)
+
+
+# In[76]:
+
+
+import math
+for i in range(1,101):
+    if i%2 > 0:
+        print(i,"odd")
+    else:
+        print(i,"even")     
+
+
+# In[80]:
+
+
+for i in range(1,101):
+    if i > 1:
+        for n in range(2, i):
+            if (i % n) == 0:
+                print(i, "is not a prime number")
+            else:
+                print(i, "is a prime number")
+
+
+# In[68]:
+
+
+#Fizzbuzz
+for i in range(1,101):
+    if i%3==0 and i%5==0:
+        print(i,"FizzBuzz")
+    elif i % 3 == 0:
+        print(i,"Fizz")
+    elif i % 5 == 0:
+        print(i,"Buzz")   
+
+
+
+
+
